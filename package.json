@@ -1,6 +1,6 @@
 {
     "name": "@kdt310722/renovate-config",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Shared Renovate Bot Config Preset",
     "author": "Diep Dang <khangdt310722@gmail.com>",
     "license": "MIT",

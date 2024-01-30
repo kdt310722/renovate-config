@@ -3,9 +3,7 @@
     "extends": [
         "config:recommended",
         "group:allNonMajor",
-        ":automergeAll",
         ":automergeBranch",
-        ":automergeRequireAllStatusChecks",
         ":disableDependencyDashboard",
         ":disableRateLimiting",
         ":enableVulnerabilityAlerts",
@@ -16,5 +14,15 @@
     "rangeStrategy": "bump",
     "npm": {
         "commitMessageTopic": "{{prettyDepType}} {{depName}}"
-    }
+    },
+    "packageRules": [
+        {
+            "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+            "automerge": true
+        },
+        {
+            "matchDepTypes": ["devDependencies"],
+            "automerge": true
+        }
+    ]
 }
