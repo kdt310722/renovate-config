@@ -21,7 +21,7 @@
     "devDependencies": {
         "@commitlint/cli": "^19.2.1",
         "@commitlint/config-conventional": "^19.1.0",
-        "renovate": "^37.279.4",
+        "renovate": "^37.280.0",
         "simple-git-hooks": "^2.11.1"
     },
     "commitlint": {
