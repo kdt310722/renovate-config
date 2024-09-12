@@ -19,9 +19,9 @@
         "prepare": "simple-git-hooks"
     },
     "devDependencies": {
-        "@commitlint/cli": "^19.4.1",
-        "@commitlint/config-conventional": "^19.4.1",
-        "renovate": "^38.74.1",
+        "@commitlint/cli": "^19.5.0",
+        "@commitlint/config-conventional": "^19.5.0",
+        "renovate": "^38.77.2",
         "simple-git-hooks": "^2.11.1"
     },
     "commitlint": {
